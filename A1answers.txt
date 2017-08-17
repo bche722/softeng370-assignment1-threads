@@ -1,0 +1,8 @@
+Question 1
+When the memory is released, the pointer is still point to that address. Thus when we use this pointer again, there will be no exception thrown, and it will return a wrong value.
+Question 2
+Why are the time consuming calculations in threads3.c required in order to demonstrate the effectiveness
+of the pre-emptive scheduler?
+Question 3
+In threads3.c there is some code around the call to rand() to block signals and then allow them again.
+Explain what can happen if this is not done. Also give an explanation as to why this can happen.
